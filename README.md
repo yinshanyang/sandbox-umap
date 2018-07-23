@@ -30,7 +30,7 @@ optional arguments:
                         (default: euclidean)
 ```
 
-## Input (Vectors)
+### Input (Vectors)
 
 > note: there is no index column, it’s a space-delimited file of the vector values
 
@@ -44,7 +44,7 @@ optional arguments:
  0.0007 -0.0098  0.0038 ...  0.008  -0.011  -0.0024
 ```
 
-## Output (Projections/Embeddings)
+### Output (Projections/Embeddings)
 
 > note: there is no header row, and it’s comma-delimited
 
