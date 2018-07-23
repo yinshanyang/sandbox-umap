@@ -43,9 +43,10 @@ optional arguments:
 
 ### Input (Vectors)
 
-> note: there is no index column, it’s a space-delimited file of the vector values
+> word2vec-style vector file
 
 ```
+10 300
 some -0.0032 -0.0722  0.0054 ... -0.0151 -0.0035 -0.0059
 magical 0.0089 -0.0051 0.0078 ... -0.0107 -0.0224 -0.0012
 word 0.005 -0.0114 0.015 ... -0.0015 -0.0138 -0.016
