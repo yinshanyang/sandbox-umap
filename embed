@@ -69,7 +69,7 @@ print(args)
 vectors = pd.read_table(
     args.input_path,
     sep=' ',
-    skiprows=0,
+    skiprows=1,
     index_col=0,
     usecols=range(0, args.usecols + 1),
     nrows=args.nrows,
