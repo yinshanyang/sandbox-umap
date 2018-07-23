@@ -55,7 +55,7 @@ parser.add_argument(
 parser.add_argument(
     'input_path',
     metavar='INPUT',
-    help='source vector file, the thing that comes out of fastText or word2vec'
+    help='source vector file, word2vec style vector file'
 )
 parser.add_argument(
     'output_path',
@@ -70,7 +70,8 @@ vectors = pd.read_table(
     args.input_path,
     sep=' ',
     skiprows=0,
-    usecols=range(0, args.usecols),
+    index_col=0,
+    usecols=range(0, args.usecols + 1),
     nrows=args.nrows,
     header=None,
     quoting=csv.QUOTE_NONE
