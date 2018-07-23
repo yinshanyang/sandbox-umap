@@ -49,7 +49,7 @@ parser.add_argument(
     '--metric',
     dest='metric',
     metavar='METRIC',
-    help='distance function, e.g. euclidean, correlation (default: euclidean)',
+    help='distance function, e.g. euclidean, cosine, correlation (default: euclidean)',
     default='euclidean'
 )
 parser.add_argument(
