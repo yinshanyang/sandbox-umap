@@ -1,5 +1,16 @@
 # `sandbox-umap`
 
+## Setup
+
+```bash
+# install dependencies
+conda env create --file environment.yml
+source activate umap
+
+# use some UMAP
+./embed INPUT OUTPUT
+```
+
 ## `embed`
 
 ```
